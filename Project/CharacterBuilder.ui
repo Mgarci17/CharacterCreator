@@ -39,7 +39,7 @@
      </sizepolicy>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="main_tab">
      <attribute name="title">
@@ -436,6 +436,16 @@
        </item>
       </layout>
      </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Equipment</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Features</string>
+     </attribute>
     </widget>
     <widget class="QWidget" name="edit_tab">
      <attribute name="title">
