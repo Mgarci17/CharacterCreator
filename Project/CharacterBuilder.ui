@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>5e Character Creator</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
@@ -55,7 +55,7 @@
      <attribute name="title">
       <string>Skills</string>
      </attribute>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -451,11 +451,11 @@
      <attribute name="title">
       <string>Edit</string>
      </attribute>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>180</y>
+        <y>200</y>
         <width>141</width>
         <height>174</height>
        </rect>
@@ -603,13 +603,13 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>10</y>
         <width>321</width>
-        <height>91</height>
+        <height>125</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
@@ -687,11 +687,11 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>107</y>
+        <y>130</y>
         <width>321</width>
         <height>51</height>
        </rect>
@@ -744,12 +744,12 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>160</x>
-        <y>200</y>
-        <width>51</width>
+        <y>220</y>
+        <width>52</width>
         <height>152</height>
        </rect>
       </property>
@@ -773,6 +773,19 @@
         <widget class="QLineEdit" name="charisma_bonus_lineEdit"/>
        </item>
       </layout>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>321</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
      </widget>
     </widget>
    </widget>
