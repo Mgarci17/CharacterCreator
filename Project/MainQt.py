@@ -10,6 +10,7 @@ class MainWindowUIClass(QtWidgets.QMainWindow):
     proficiency = 2
 
     def __init__(self):
+        import Classes_and_Subclasses
         """
             Initializes the super class
             Guide: https://nitratine.net/blog/post/how-to-import-a-pyqt5-ui-file-in-a-python-gui/
@@ -62,6 +63,11 @@ class MainWindowUIClass(QtWidgets.QMainWindow):
         self.character_name_box = ui_objects.character_name_box
         self.name = self.character_name_box.toPlainText()
 
+        # Begin Classes
+        self.class_combo_box = ui_objects.class_comboBox
+        self.class_combo_box.addItems(Classes_and_Subclasses.available_classes)
+        self.class_combo_box.currentIndexChanged.connect(self.update_character)
+        # End Classes
         # Begin update button
         self.update_push_button = ui_objects.update_pushButton
         self.update_push_button.clicked.connect(self.update_character)
