@@ -455,7 +455,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>200</y>
+        <y>270</y>
         <width>141</width>
         <height>174</height>
        </rect>
@@ -691,7 +691,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>130</y>
+        <y>150</y>
         <width>321</width>
         <height>51</height>
        </rect>
@@ -748,7 +748,7 @@
       <property name="geometry">
        <rect>
         <x>160</x>
-        <y>220</y>
+        <y>290</y>
         <width>52</width>
         <height>152</height>
        </rect>
@@ -774,17 +774,17 @@
        </item>
       </layout>
      </widget>
-     <widget class="Line" name="line">
+     <widget class="QPushButton" name="update_pushButton">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>180</y>
-        <width>321</width>
-        <height>16</height>
+        <x>310</x>
+        <y>470</y>
+        <width>151</width>
+        <height>51</height>
        </rect>
       </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+      <property name="text">
+       <string>Update</string>
       </property>
      </widget>
     </widget>
